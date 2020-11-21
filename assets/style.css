@@ -9,3 +9,17 @@
 .col-sm-12 {
     border: 1px solid green;
 }
+
+button {
+    color: blue;
+    font-weight: bold;
+    width: 155px;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}

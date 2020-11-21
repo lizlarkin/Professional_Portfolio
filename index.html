@@ -27,19 +27,24 @@
     <!-- Container -->
     <div class="container">
         <!-- Basic Information Row -->
-        <div class="row">
-            <div class="col-sm-6">
-              <h1>Liz Larkin</h1>
-              <h3>San Francisco, CA</h3>
-              <h3>(415) 551-1700</h3>
-              <h3>enlarkin@gmail.com</h3>
+        <div class="row" id = "main-row">
+          <div class="col-sm-4" id = "main-left">
+            picture 1
+          </div>
+          <div class="col-sm-4" id = "main-center">
+            <div id = "basic-info">
+            <h1>Liz Larkin</h1>
+            <h4>San Francisco, CA</h4>
+            <h4>enlarkin@gmail.com</h4>
+            <h4>415-551-1700</h4>
             </div>
-            <div class="col-sm-6">
-              About Picture
-            </div>
+          </div>
+          <div class="col-sm-4" id = "main-right">
+            picture 2
+          </div>
         </div>
         <!-- Buttons Row -->
-        <div class="row">
+        <div class="row" id = "button-row">
             <div class="col-sm-3">
                 <button id = "about-button">About</button>
             </div>
@@ -56,16 +61,48 @@
         <!-- Dynamic Content -->
         <div class="row" id = "dyanamic-div">
             <div class="col-sm-12" id = "about-div">
-              About Dynamic Content
+              <p>
+                I was born and raised in San Francisco, CA. I'm a graduate of St. Ignatius College Prep High School, I have a BA from Cornell University, and I have an MBA from UC Berkeley Haas School of Business.
+              </p>
+              <p>
+                Descending from generations of unathletic ancestors, I rebelled by following and playing sports. I played for and captained the Cornell Varsity Women's Softball Team. Now I like to spend any free time I can find on the golf course or watching my favorite local teams. 
+              </p>
+              <p>
+                In 2018 I married my husband Aaron in Lake Tahoe. 
+              </p>
+              <p>
+                I have twice thrown out the ceremonial first pitch at an Oakland A's game -- each time dressed like Elmo.
+              </p>
             </div>
+            <!-- Resume Dynamic Content -->
             <div class="col-sm-12" id = "resume-div">
-              Resume Dynamic Content
+              <div id = "resume-header">
+                <h4>Elizabeth Larkin</h4>
+                <h6>enlarkin@gmail.com</h6>
+                <h6>415-551-1700</h6>
+                <h6>San Francisco, CA</h6>
+                <a href = "assets/Elizabeth Larkin Resume.pdf" target="_blank">Download PDF Resume Here</a>
+              </div>
+              <div id = "resume-heading"></div>
+                <h6></h6>
+              <div id = "resume-content"></div>
+              <div></div>
             </div>
+            <!-- Portfolio Dynamic Content -->
             <div class="col-sm-12" id = "portfolio-div">
-              Portfolio Dynamic Content
+              
             </div>
+            <!-- Links Dynamic Content -->
             <div class="col-sm-12" id = "links-div">
-              Links Dynamic Content
+              <div id = "link">
+                <a href = "https://github.com/lizlarkin" target="_blank">GitHub</a>
+              </div>
+              <div id = "link">
+                <a href = "https://www.linkedin.com/in/larkinelizabeth" target="_blank">LinkedIn</a>
+              </div>
+              <div id = "link">
+                <a href = "https://www.highlandtechnology.com/" target="_blank">Highland Technology</a>
+              </div>
             </div>
         </div>
 

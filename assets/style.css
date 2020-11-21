@@ -55,3 +55,17 @@ button:hover {
     border: 1px solid grey;
     box-shadow: 0px 5px 5px 0px 
 }
+
+#resume-header {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#resume-heading {
+    padding-top: 10px;
+}
+
+.dates {
+   float: right;
+}
+

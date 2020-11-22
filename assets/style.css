@@ -64,6 +64,7 @@ button:hover {
     background-color: white;
     border-radius: 7px;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 #elmo-picture {
@@ -77,6 +78,7 @@ button:hover {
     box-shadow: 0px 5px 10px 0px;
     background-color: white;
     border-radius: 7px;
+    margin-bottom: 100px;
 }
 
 #resume-header {
@@ -106,6 +108,7 @@ h3 {
     border-radius: 7px;
     padding: 20px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #portfolio-aside2 {
@@ -115,6 +118,7 @@ h3 {
     border-radius: 7px;
     padding: 20px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 #links-div {
@@ -124,6 +128,7 @@ h3 {
     border-radius: 7px;
     text-align: center;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 #footer {

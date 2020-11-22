@@ -15,7 +15,7 @@ Issues to return to:
 2) There is always more styling!
 3) Add more content to portfolio as more projects are completed. 
 
-Link to the deployed page:https://lizlarkin.github.io/Weather_App/weather.html
+Link to the deployed page:https://lizlarkin.github.io/Professional_Portfolio/index.html
 
 Screenshot: 
 <img src="portfolio_screenshot.jpg">

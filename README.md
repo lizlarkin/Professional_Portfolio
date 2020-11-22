@@ -18,4 +18,4 @@ Issues to return to:
 Link to the deployed page:https://lizlarkin.github.io/Professional_Portfolio/index.html
 
 Screenshot: 
-<img src="portfolio_screenshot.jpg">
+<img src="portfolio_screenshot.png">

@@ -1,33 +1,31 @@
+.container {
+    background-image: url(https://img.freepik.com/free-photo/brick-wall_1154-638.jpg?size=626&ext=jpg);
+}
+
 #main-row {
-    /* background-image: url("background2.jpg"); */
-    background-repeat: no-repeat;
+    /* background-image: url("background2.jpg");
+    background-repeat: no-repeat; */
     height: 500px;
 }
 
 #main-left {
-    background-image: url("bga2.jpg");
-    /* background-repeat: no-repeat; */
-    height: 500px;
-    border: 1px solid green;
+    background-image: url("bga3.png");
+    background-repeat:no-repeat;
 }
 
 #main-center {
-    background-image: url("bgb2.jpg");
-    background-repeat: no-repeat;
-    height: 500px;
-    text-align: center;
-    border: 1px solid red;
+    background-image: url("bgb3.png");
+    background-repeat:no-repeat;
 }
 
 #basic-info {
     margin-top: 225px;
+    text-align: center;
 }
 
 #main-right {
-    background-image: url("bgc.jpg");
-    /* background-repeat: no-repeat; */
-    height: 500px;
-    border: 1px solid blue;
+    background-image: url("bgc3.png");
+    background-repeat:no-repeat;
 }
 
 #button-row {

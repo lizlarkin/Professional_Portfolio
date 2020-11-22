@@ -1,15 +1,23 @@
+body, html{
+    height:100%;
+}
+
 .container {
     background-image: url(https://img.freepik.com/free-photo/brick-wall_1154-638.jpg?size=626&ext=jpg);
+    min-height: 100%;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
 }
 
 #main-row {
-    /* background-image: url("background2.jpg");
-    background-repeat: no-repeat; */
     height: 500px;
 }
 
 #main-left {
-    background-image: url("bga3.png");
+    background-image: url("bga4.png");
     background-repeat:no-repeat;
 }
 
@@ -21,10 +29,11 @@
 #basic-info {
     margin-top: 225px;
     text-align: center;
+    color: #3c6382
 }
 
 #main-right {
-    background-image: url("bgc3.png");
+    background-image: url("bgc4.png");
     background-repeat:no-repeat;
 }
 
@@ -49,9 +58,19 @@ button:hover {
     color: white;
 }
 
+#about-div {
+    border: 1px solid grey;
+    box-shadow: 0px 5px 10px 0px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+
 #resume-div {
     border: 1px solid grey;
-    box-shadow: 0px 5px 5px 0px 
+    box-shadow: 0px 5px 10px 0px;
+    background-color: white;
+    border-radius: 7px;
 }
 
 #resume-header {
@@ -59,7 +78,7 @@ button:hover {
     padding-top: 15px;
 }
 
-#resume-heading {
+.resume-heading {
     padding-top: 10px;
 }
 
@@ -67,3 +86,30 @@ button:hover {
    float: right;
 }
 
+.link {
+    margin-bottom: 10px;
+}
+
+#portfolio-div {
+    border: 1px solid grey;
+    box-shadow: 0px 5px 10px 0px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+
+#links-div {
+    border: 1px solid grey;
+    box-shadow: 0px 5px 10px 0px;
+    background-color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 20px;
+}
+
+#footer {
+    color: white !important;
+    /* force copyright to middle of footer */
+    margin-right: auto !important;
+    margin-left: auto !important;
+}

@@ -5,13 +5,13 @@ var linksButton = document.querySelector("#links-button");
 
 var aboutEl = document.querySelector("#about-div");
 var resumeEl = document.querySelector("#resume-div");
-var portfolioEl = document.querySelector("#portfolio-div");
+var portfolioEl = document.querySelector("#portfolio-section");
 var linksEl = document.querySelector("#links-div");
 
 function reset () {
 $("#about-div").hide()
 $("#resume-div").hide()
-$("#portfolio-div").hide()
+$("#portfolio-section").hide()
 $("#links-div").hide()
 }
 reset ()
@@ -28,7 +28,7 @@ resumeButton.addEventListener ("click", function() {
 
 portfolioButton.addEventListener ("click", function() {
     reset()
-    $("#portfolio-div").show()
+    $("#portfolio-section").show()
 });
 
 linksButton.addEventListener ("click", function() {
